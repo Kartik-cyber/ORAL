@@ -1,0 +1,278 @@
+
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Light.woff);
+}
+@font-face {
+    font-family: cinzel;
+    src: url(Cinzel-Black.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+}
+#nav{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    background-color: black;
+    font-family: gilroy;
+}
+#navpart-1{
+    display: flex;
+    align-items: center;
+}
+#navpart-1 h1{
+    color: white;
+    font-size: 2vw;
+}
+#navpart-2{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+#navpart-2 h3{
+    color: white;
+    font-size: 1vw;
+}
+#navpart-3{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#navpart-3 h3{
+    color: white;
+    font-size: 1vw;
+}
+
+#page-part1{
+    height: 94vh;
+    width: 100vw;
+    display: flex;
+}
+#page-left{
+    height: 94vh;
+    width: 45vw;
+    padding: 0vh 1vw;
+
+    
+}
+#text{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 94vh;
+    font-family: cinzel;
+}
+#text h1{
+    font-size: 6.9vw;
+    line-height:6.9vw;
+}
+#text button{
+    font-size: 1vw;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+#page-right{
+    height: 94vh;
+    width: 55vw;
+
+
+}
+#page-right img{
+    height: 94vh;
+    width: 55vw;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+#page2-text{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cinzel;
+}
+#page2-text h1{
+    margin-top: 8vh;
+    font-size: 3vw;
+    
+}
+#image{
+    margin-top: 8vh;
+    height: 100vh;
+    width: 100VW;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 15vh;
+
+}
+.images{
+    height: 50vh;
+    width: 20vw;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh;
+    gap: 1vw;
+
+}
+#page3-left{
+    height: 100vh;
+    width: 50vw;
+    background-color: #EFEFEF;
+}
+#page3-left-top video{
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+    object-position: top;
+
+}
+#page3-left-bottom{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+#page3-left-bottom-left{
+    height: 40vh;
+    width: 25vw;
+}
+#page3-left-bottom-left img{
+    height: 40vh;
+    width: 25vw;
+    background-color: snow;
+
+}
+
+#page3-left-bottom-right{
+    height: 40vh;
+    width: 25vw;
+  
+}
+#page3-left-bottom-right img{
+    height: 40vh;
+    width: 25vw;
+    background-color: snow;
+}
+#page3-left-top{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+}
+#page3-right{
+    height: 100vh;
+    width: 50vw;
+}
+
+
+#page3-right-top{
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+}
+#page3-right-top-left{
+    height: 40vh;
+    width: 25vw;
+}
+#page3-right-top-left img{
+    height: 100%;
+    width: 100%;
+}
+#page3-right-top-right{
+    height: 40vh;
+    width: 25vw;
+
+}
+#page3-right-top-right img{
+    height: 100%;
+    width: 100%;
+}
+
+#page3-right-bottom{
+    height: 60vh;
+    width: 50vw;
+}
+#page3-right-bottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 0%;
+}
+#bottom{
+    margin-top: 4vh;
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: wheat;
+    gap: 5vh;
+}
+#bottom h1{
+    font-size: 1.4vw;
+    font-family: cinzel;
+    font-weight: 900
+}
+#bottom-text{
+  display: flex;
+  gap: 80px;
+  color: white;
+  font-size: 1vw;
+  font-family: gilroy;
+  font-weight: 500;
+}
+#bottom-icon{
+    display: flex;
+    gap:40px
+
+}
+#bottom h5{
+    font-family: cinzel;
+    font-size: 1vw;
+    font-weight: 100;
+}
